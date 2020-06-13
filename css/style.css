@@ -6,17 +6,20 @@
 /* logo #2196F3 #000000 */
 /* hero #FFFFFF */
 /* logo footer ##2196F3  */
+/* button-bg-color */
 :root {
     --primery-text-color: #757575;
     --title-text-color: #212121;
     --secondary-title-text-color: #FFFFFF; 
     --accent-color: #2196F3;
+    --button-bg-color: #2196F3;
+    --secondary-button-bg-color: #F5F4FA;
 }
 .page {
     background-color: #FFFFFF;
 }
 /* site nav */
-.logo, .logo:hover, .logo:focus {
+.logo .logo:hover .logo:focus {
     color: var(--accent-color);
     font-family: Raleway;
     font-style: normal;
@@ -27,7 +30,7 @@
 .logo-header {
     color: var(--title-text-color);
 }
-.logo-header:hover, .logo-header:focus {
+.logo-header:hover .logo-header:focus {
     color: var(--accent-color);
 }
 .list {
@@ -41,7 +44,10 @@
     font-size: 14px;
     line-height: 16px;
 }
-.link:hover, .link:focus {
+.link:hover .link:focus {
+    color: var(--accent-color);
+}
+.list .link.current {
     color: var(--accent-color);
 }
 .contacts {
@@ -52,7 +58,7 @@
     font-size: 14px;
     line-height: 16px;
 }
-.contacts:hover, .contacts:focus {
+.contacts:hover .contacts:focus {
     color: var(--accent-color);
 }
 /* hero */
@@ -65,9 +71,15 @@
     font-size: 44px;
     line-height: 60px;
 }
+/* button */
 .button {
     color: var(--secondary-title-text-color);
-    background-color:#2196F3;
+    background-color: var(--button-bg-color);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
 }
 /* section */
 .section {
@@ -100,7 +112,7 @@
    background-color: rgba(47, 48, 58, 0.8);
    font-family: Roboto;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 14px;
     line-height: 16px;
 }
@@ -115,7 +127,7 @@ footer {
     color: var(--secondary-title-text-color);
     font-family: Roboto;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 500;
     font-size: 14px;
     line-height: 24px;
 }
@@ -123,23 +135,16 @@ footer {
     color: var(--secondary-title-text-color);
     font-family: Roboto;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 14px;
     line-height: 16px; 
-}
-.footer-button {
-    color: var(--secondary-title-text-color);
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 30px;
 }
 .copyright {
     color: rgba(255, 255, 255, 0.4);
 }
 .filter {
     color: var(--title-text-color);
+    background-color: var(--secondary-button-bg-color);
     font-family: Roboto;
     font-style: normal;
     font-weight: 700;
@@ -148,4 +153,5 @@ footer {
 }
 .filter:hover, .filter:focus {
     color: var(--secondary-title-text-color);
+    background-color: var(--accent-color); ;
 }
