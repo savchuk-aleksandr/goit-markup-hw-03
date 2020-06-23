@@ -39,7 +39,6 @@
     line-height: 0.14;
     text-decoration: none;
     letter-spacing: 0.02rem;
-
 }
 .link:hover .link:focus {
     color: var(--accent-color);
@@ -52,11 +51,11 @@
 
     font-weight: 500;
     font-size: 14px;
-    line-height: 0.14;;
+    line-height: 0.14;
+    letter-spacing: 0.02rem;
     text-decoration: none;
-    letter-spacing: 0.02rem
 }
-.contacts:hover .contacts:focus {
+.contacts:hover, .contacts:focus {
     color: var(--accent-color);
 }
 /* hero */
@@ -147,7 +146,6 @@ footer {
     text-align: center;
 }
 /* page partfolio */
-/* secondary-button */
 .secondary-button {
     color: var(--title-text-color);
     background-color: var(--secondary-button-bg-color);
