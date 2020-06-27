@@ -82,7 +82,7 @@
     letter-spacing: 0.06rem;
 }
 /* section */
-.section {
+.title {
     color: var(--title-text-color);
 
     font-weight: 700;
