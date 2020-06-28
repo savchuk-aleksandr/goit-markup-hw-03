@@ -20,7 +20,7 @@
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03rem;
 }
-/* site nav */
+/* header */
 .logo, .logo:hover, .logo:focus {
     color: var(--accent-color);
 
@@ -38,6 +38,8 @@
     color: var(--accent-color);
 }
 .list {
+    padding: 0;
+    margin: 0;
     list-style: none;
 }
 .link {
@@ -68,6 +70,8 @@
 }
 /* hero */
 .hero-title {
+    margin-top: 0;
+    margin-bottom: 30px;
     color: var(--secondary-title-text-color);
     background-color: rgba(47, 48, 58, 0.8);
 
@@ -97,7 +101,14 @@
     border-radius: 4px;
 }
 /* section */
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .title {
+    margin-top: 0;
+    margin-bottom: 50px;
+
     color: var(--title-text-color);
 
     font-weight: 700;
@@ -106,19 +117,29 @@
     text-align: center;
 }
 .section-title {
+    margin-top: 0;
+    margin-bottom: 10px;
     color: var(--title-text-color);
 
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
 }
+.section-title.centered {
+    text-align: center;
+}
 .section-item {
+    margin-top: 0;
+    margin-bottom: 0;
     color: var(--primery-text-color);
 
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     text-decoration: none;
+}
+.section-item.centered {
+    text-align: center;
 }
 /* work */
 .work-item {
@@ -130,7 +151,10 @@
     line-height: 1.14;
     text-align: center;
     text-decoration: none;
-    
+}
+/* team */
+.section.team {
+    background-color: #F5F4FA;
 }
 /* footer */
 footer {
@@ -175,6 +199,9 @@ footer {
     background-color: var(--accent-color);
 }
 .overlay {
+    margin-top: 0;
+    margin-bottom: 0;
+
     color: var(--secondary-title-text-color);
     background-color: var(--accent-color);
     
