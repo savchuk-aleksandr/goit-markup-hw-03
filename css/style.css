@@ -252,8 +252,7 @@ footer {
 .address {
     color: var(--secondary-title-text-color);
 
-    font-family: Roboto, sans-serif;
-    letter-spacing: 0.03rem;
+    font-style: normal;
     font-size: 14px;
     line-height: 1.7;
 }
@@ -301,6 +300,26 @@ footer {
 .secondary-button:hover, .secondary-button:focus {
     color: var(--secondary-title-text-color);
     background-color: var(--accent-color);
+}
+.projects-title {
+    margin-top: 20px;
+    margin-bottom: 4px;
+    color: var(--title-text-color);
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06rem;
+}
+.projects-item {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: var(--primery-text-color);
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03rem;
 }
 .overlay {
     margin-top: 0;
